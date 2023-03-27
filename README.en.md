@@ -1,36 +1,107 @@
-# zeus-view
-
-#### Description
-代码生成器前端
-
-#### Software Architecture
-Software architecture description
-
-#### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+#ZEUS code generator background
 
 
-#### Gitee Feature
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## 1. Technical framework
+
+
+
+Zeus code generator background is developed using spring boot, mybatisplus, and freemarker technologies
+
+
+
+Zeus code generator foreground is developed using vue3, typescript, and elementplus technologies
+
+
+
+## 2. How to get started
+
+
+
+1. Create a new database code
+
+
+
+2. Import code.sql
+
+
+
+3. Clone background project code to local
+
+
+
+```
+
+git clone https://gitee.com/rederic/zeus-server.git
+
+```
+
+
+
+4. Launch the spring boot project
+
+
+
+5. Clone foreground code to local
+
+
+
+```
+
+git clone https://gitee.com/rederic/zeus-view.git
+
+```
+
+
+
+6. Start front-end project
+
+
+
+```
+
+npm install
+
+npm run dev
+
+```
+
+
+
+## 3. Rapid development
+
+
+
+You can quickly generate front-end and back-end code using a code generator back-end template
+
+
+
+## 4. Project Packaging Deployment
+
+
+
+Packaging and deployment of foreground projects
+
+
+
+```
+
+npm run build:prod
+
+```
+
+
+
+Find dist_ Install the zeus Setup 2.7.8.exe file in the electric folder
+
+
+
+Background project packaging and deployment
+
+
+
+```
+
+mvn package -DskipTests
+
+```

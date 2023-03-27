@@ -1,37 +1,55 @@
-# zeus-view
+# ZEUS 代码生成器后台
 
-#### 介绍
-代码生成器前端
+## 1. 技术框架
 
-#### 软件架构
-软件架构说明
+zeus代码生成器后台采用springboot、mybatisplus、freemarker技术开发
 
+zeus代码生成器前台采用vue3、typescript、elementplus技术开发
 
-#### 安装教程
+## 2. 如何上手
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. 新建数据库code
 
-#### 使用说明
+2. 导入code.sql
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+3. 克隆后台项目代码到本地
 
-#### 参与贡献
+   ```
+   git clone https://gitee.com/rederic/zeus-server.git
+   ```
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+4. 启动springboot项目
 
+5. 克隆前台代码到本地
 
-#### 特技
+   ```
+   git clone https://gitee.com/rederic/zeus-view.git
+   ```
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+6. 启动前端项目
+
+   ```
+   npm install
+   npm run dev
+   ```
+
+## 3. 快速开发
+
+可以使用代码生成器后端模板快速生成前后端代码
+
+## 4. 项目打包部署
+
+前台项目打包部署
+
+```
+npm run build:prod
+```
+
+找到dist_electron 文件夹把 zeus Setup 2.7.8.exe 安装文件
+
+后台项目打包部署
+
+```
+mvn package -DskipTests
+```
+
