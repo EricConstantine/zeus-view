@@ -333,30 +333,48 @@ const gridData = [
       {
         id: 5 - 5,
         key: 'isKey',
-        keyName: '是否主键（布尔）',
-        example: 'true/false'
+        keyName: '是否主键',
+        example: 'Y/N'
       },
       {
         id: 5 - 6,
+        key: 'nullable',
+        keyName: '是否非空',
+        example: 'Y/N'
+      },
+      {
+        id: 5 - 7,
         key: 'filedLen',
         keyName: '字段长度（数字）',
         example: '20'
       },
       {
-        id: 5 - 7,
+        id: 5 - 8,
+        key: 'defaultValue',
+        keyName: '默认值',
+        example: '1'
+      },
+      {
+        id: 5 - 9,
+        key: 'scale',
+        keyName: '精度（数字）',
+        example: '2'
+      },
+      {
+        id: 5 - 10,
         key: 'realType',
         keyName: '真实字段类型',
         example: 'varchar'
       },
       {
-        id: 5 - 8,
+        id: 5 - 11,
         key: 'javaType',
         popover: 1,
         keyName: '字段类型转JAVA类型',
         example: 'String'
       },
       {
-        id: 5 - 9,
+        id: 5 - 12,
         key: 'xmlType',
         popover: 2,
         keyName: '字段类型转XML类型',
